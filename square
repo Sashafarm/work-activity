@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    double planet_distance, square_of_distance;
+    printf("Enter the planet's distance from the Sun: ");
+    scanf("%lf", &planet_distance);
+
+    square_of_distance = planet_distance * planet_distance;
+    printf("The square of the planet's distance from the Sun is: %.2lf\n", square_of_distance);
+
+    return 0;
+}
